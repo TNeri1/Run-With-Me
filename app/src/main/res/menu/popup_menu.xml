@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/temp_setting"
+        android:title="Setting"></item>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/temp_profile"
+        android:title="Profile"></item>
+    <item
+        android:id="@+id/achievements"
+        android:icon="@drawable/temp_achievement"
+        android:title="Achievements!"></item>
+    <item
+        android:id="@+id/pets"
+        android:icon="@drawable/temp_pets"
+        android:title="Pets"></item>
+</menu>
