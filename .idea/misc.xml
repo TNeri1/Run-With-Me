@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable/menu.xml" value="0.41822916666666665" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33611111111111114" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1265625" />
+        <entry key="app/src/main/res/drawable/ic_run.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/drawable/temp_achievement.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/drawable/temp_pets.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/drawable/temp_profile.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/drawable/temp_setting.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.225" />
       </map>
     </option>
   </component>
