@@ -3,8 +3,11 @@ package com.example.runwithme
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import android.widget.PopupMenu
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_exercise.*
 import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.Exception
 
@@ -15,6 +18,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         popupMenu()
+
+        val exerciseButton = findViewById<Button>(R.id.exercise)
+
+        exerciseButton.setOnClickListener(View.OnClickListener {
+            var intent = Intent(this@MainActivity,ExerciseActivity::class.java)
+            startActivity(intent)
+        })
     }
 
     private fun popupMenu() {
