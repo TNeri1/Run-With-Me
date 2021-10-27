@@ -8,31 +8,6 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/food"
-        android:layout_width="wrap_content"
-        android:layout_height="75dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginEnd="300dp"
-        android:layout_marginBottom="40dp"
-        android:src="@drawable/ic_food"
-        app:tint="@color/white" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/exercise"
-        android:layout_width="wrap_content"
-        android:layout_height="75dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginEnd="166dp"
-        android:layout_marginBottom="82dp"
-        android:src="@drawable/ic_run"
-        app:tint="@color/white"
-        />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/menu_options"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,7 +16,62 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="40dp"
         android:src="@drawable/ic_menu"
+        app:backgroundTint="#000000"
         app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="casual"
+        android:text="@string/exercise"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="337dp"
+        android:layout_height="290dp"
+        android:layout_above="@+id/exercise"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="44dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/dragon_still" />
+
+    <ImageButton
+        android:id="@+id/exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/exercise_updated" />
+
+    <ImageButton
+        android:id="@+id/mealButton"
+        android:layout_width="82dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="22dp"
+        android:layout_toStartOf="@+id/menu_options"
+        android:background="@drawable/meal" />
 
 
 </RelativeLayout>

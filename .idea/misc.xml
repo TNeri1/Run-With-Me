@@ -3,14 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/micha/AndroidStudioProjects/Run-With-Me/app/src/main/res/layout/activity_achievements.xml" value="0.4" />
+        <entry key="..\:/Users/micha/AndroidStudioProjects/Run-With-Me/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/micha/AndroidStudioProjects/Run-With-Me/app/src/main/res/layout/activity_meal.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/micha/AndroidStudioProjects/Run-With-Me/app/src/main/res/layout/activity_pets.xml" value="0.2" />
+        <entry key="..\:/Users/micha/AndroidStudioProjects/Run-With-Me/app/src/main/res/layout/activity_profile.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/micha/AndroidStudioProjects/Run-With-Me/app/src/main/res/layout/activity_settings.xml" value="0.264" />
+        <entry key="..\:/Users/micha/AndroidStudioProjects/Run-With-Me/app/src/main/res/layout/settings_activity.xml" value="0.15942028985507245" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1265625" />
-        <entry key="app/src/main/res/drawable/ic_run.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/drawable/ic_run.xml" value="0.19" />
         <entry key="app/src/main/res/drawable/temp_achievement.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/drawable/temp_pets.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/drawable/temp_profile.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/drawable/temp_setting.xml" value="0.24114583333333334" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_exercise.xml" value="0.2318840579710145" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.3807816625620081" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.225" />
+        <entry key="app/src/main/res/menu/popup_menu.xml" value="0.225" />
       </map>
     </option>
   </component>
