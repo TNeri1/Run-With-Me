@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.PopupMenu
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_exercise.*
@@ -19,10 +20,17 @@ class MainActivity : AppCompatActivity() {
 
         popupMenu()
 
-        val exerciseButton = findViewById<Button>(R.id.exercise)
+        val exerciseButton = findViewById<ImageButton>(R.id.exercise)
 
         exerciseButton.setOnClickListener(View.OnClickListener {
             var intent = Intent(this@MainActivity,ExerciseActivity::class.java)
+            startActivity(intent)
+        })
+
+        val mealButton = findViewById<ImageButton>(R.id.exercise)
+
+        mealButton.setOnClickListener(View.OnClickListener {
+            var intent = Intent(this@MainActivity,MealActivity::class.java)
             startActivity(intent)
         })
     }
@@ -33,19 +41,23 @@ class MainActivity : AppCompatActivity() {
         popupMenu.setOnMenuItemClickListener {
             when (it.itemId) {
                 R.id.setting -> {
-                    Toast.makeText(applicationContext, "Open Settings", Toast.LENGTH_SHORT).show()
+                    var intent = Intent(this@MainActivity,SettingsActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.profile -> {
-                    Toast.makeText(applicationContext, "Open User Profile", Toast.LENGTH_SHORT).show()
+                    var intent = Intent(this@MainActivity,ProfileActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.achievements -> {
-                    Toast.makeText(applicationContext, "Open User Achievements", Toast.LENGTH_SHORT).show()
+                    var intent = Intent(this@MainActivity,AchievementsActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.pets -> {
-                    Toast.makeText(applicationContext, "Open User Pets", Toast.LENGTH_SHORT).show()
+                    var intent = Intent(this@MainActivity,PetsActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 else -> true
