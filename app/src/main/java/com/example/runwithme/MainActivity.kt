@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         })
 
-        val mealButton = findViewById<ImageButton>(R.id.exercise)
+        val mealButton = findViewById<ImageButton>(R.id.mealButton)
 
         mealButton.setOnClickListener(View.OnClickListener {
             var intent = Intent(this@MainActivity,MealActivity::class.java)
