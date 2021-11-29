@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ExerciseActivity">
+    tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:cpb_background_progressbar_color="#F2F2F2"
+        app:cpb_background_progressbar_width="5dp"
+        app:cpb_progressbar_color="#F44336"
+        app:cpb_progressbar_width="15dp"
+        app:cpb_round_border="true"
+        app:cpb_progress_max="2500"
+        />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="120dp"
-        android:text="Start Run"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/tv_stepsTaken"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
 
-    <Button
-        android:id="@+id/button2"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="120dp"
-        android:text="End Run"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button" />
+        android:id="@+id/tv_totalMax"
+        android:layout_below="@id/tv_stepsTaken"
+        android:layout_centerInParent="true"
+        android:text="/2500"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"/>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="191dp"
-        android:layout_height="269dp"
-        android:layout_marginTop="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_run" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
