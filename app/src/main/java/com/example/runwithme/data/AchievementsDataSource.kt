@@ -7,9 +7,9 @@ class AchievementsDataSource {
 
     fun loadAchievements() : List<Achievement> {
         return listOf<Achievement>(
-            Achievement(R.drawable.a1),
-            Achievement(R.drawable.a2),
-            Achievement(R.drawable.a3)
+            Achievement(R.drawable.a1_text__1_),
+            Achievement(R.drawable.a2_text__1_),
+            Achievement(R.drawable.a3_text__1_)
         )
     }
 }
