@@ -6,9 +6,7 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+This app was developed in Android Studio using the Kotlin language. One of the main features is a pedometer that showcases in a circular progress bar. This cicular progress bar was very simply made using Lopez Mikhael's and Yutaro Iino's api project, [CircularProgressBar](https://github.com/lopspower/CircularProgressBar.git). The app uses the phones native pedometer to read the amount of steps and to keep track of it in the shared preferences. We can also reset the native pedometer in the app as well! We programmed this app to be able to run on Android KitKat or newer. 
 
 # Collaborators
 
