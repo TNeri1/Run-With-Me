@@ -24,7 +24,6 @@ This app was developed in Android Studio using the Kotlin language. One of the m
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Settings (Add settings for users to change certain elements of the app.) 
 * Add more unlockable pets for users to collect. 
 * Add friends/Social features. 
