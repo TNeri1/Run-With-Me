@@ -18,9 +18,8 @@ This app was developed in Android Studio using the Kotlin language. One of the m
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Kotlin Doc](https://kotlinlang.org/docs/home.html)
+* [Recommendation for Android Developer](https://developer.android.com/kotlin/)
 
 # Future Work
 
