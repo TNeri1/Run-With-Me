@@ -1,8 +1,8 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.}
 
 {Provide a description of your team project.  Describe how to use the software.}
+
 
 # Development Environment
 
@@ -10,7 +10,11 @@ This app was developed in Android Studio using the Kotlin language. One of the m
 
 # Collaborators
 
-{Provide a list of everyone on your team}
+- Michael McFarland 
+- Madelyn McGreer 
+- Trevor Neri
+- Gavin South 
+- Hera Yang 
 
 # Useful Websites
 
@@ -21,6 +25,6 @@ This app was developed in Android Studio using the Kotlin language. One of the m
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Settings (Add settings for users to change certain elements of the app.) 
+* Add more unlockable pets for users to collect. 
+* Add friends/Social features. 
