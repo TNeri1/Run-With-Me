@@ -1,7 +1,14 @@
 # Overview
 
+Welcome to RUN WITH ME, a Tamagotchi like fitness app designed to help students keep track of their exercise with the help of a "running buddy." 
 
-{Provide a description of your team project.  Describe how to use the software.}
+It's very simple. Open the app, say hello to your running buddy (feed him/her) and get exercising!
+
+The app uses the built-in pedometer functionality of your Android phone.
+
+The app also has an achievements page when you hit milestones in your fitness experience, a profile section to adjust settings, and a circle pedometer page when you hit the exercise button.
+
+What are you waiting for? Download our GitHub, run the app, and have fun!
 
 
 # Development Environment
